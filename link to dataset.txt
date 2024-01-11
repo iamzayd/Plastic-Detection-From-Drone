@@ -1,0 +1,10 @@
+dataset with 1,8ish image link
+
+https://universe.roboflow.com/finalworkspace/last_original/dataset/9
+
+
+-----------------------
+
+dataset with 440 images and 1,527 plastics
+
+https://universe.roboflow.com/plastic-detection/reva/dataset/2#

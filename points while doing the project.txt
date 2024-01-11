@@ -1,0 +1,30 @@
+- Demonstrate and deploy a feasible solution with system architecture for implementation. 
+Show tech stack, dashboards, and downstream actions which trigger a set of events for the 
+detection and estimation of plastic.
+
+- AI-based object detection and counting of plastic in images.
+
+- The code should effectively detect plastic waste and provide its geolocation as a URL link.
+
+- annotate weeds, and other debris.
+
+- you may use state-of-the-art algorithms to build efficient solutions to detect and curb the plastic menace, which can help local authorities to take intelligent actions. Build a solution to identify 
+the severity of the menace and develop an early intervention and warning system.
+
+- The model's mean average precision, commonly referred to as mAP, needs to be a minimum of 65%.
+
+
+
+PREDICT DATASET
+
+i. IMG_ID: Image ID as given in the Predict Dataset
+ii. PRED_LAB: Plastic Yes or No as per the image
+iii. ACTUAL_CT: Actual count of the number of plastics in the given image 
+iv. PRED_CT: Predicted count of the number of plastics in the given image (based on the number of plastic 
+objects detected in the given image)
+v. CT_Error: Mean Absolute Error
+©Copyright 2023 Kyndryl and REVA University. All Rights Reserved. More details are available on the website here. 
+vi. % Error: Calculate % Error (CT_Error / ACTUAL_CT)
+vii. mAP_Train: Mean average precision of train data.
+viii. mAP_Test: Mean average precision of test data.
+ix. GEO_Tag_URL: URL of the location of the image. This must be added programmatically

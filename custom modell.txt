@@ -1,0 +1,44 @@
+def custom(input_shape=(224, 224, 3), num_classes=3):
+
+	input_layer = Input(shape=input_shape)
+
+	x = Conv2D(32, (3, 3), activation='relu', padding='same')(input_layer)
+    	x = Conv2D(32, (3, 3), activation='relu', padding='same')(x)
+	x = Conv2D(32, (3, 3), activation='relu', padding='same')(x)
+	x = Conv2D(32, (3, 3), activation='relu', padding='same')(x)
+    	x = MaxPooling2D((2, 2), strides=(2, 2))(x)
+
+	x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
+    	x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
+	x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
+    	x = MaxPooling2D((2, 2), strides=(2, 2))(x)
+
+	x = Conv2D(128, (3, 3), activation='relu', padding='same')(x)
+    	x = Conv2D(128, (3, 3), activation='relu', padding='same')(x)
+    	x = MaxPooling2D((2, 2), strides=(2, 2))(x)
+
+	x = Conv2D(256, (3, 3), activation='relu', padding='same')(x)
+    	x = Conv2D(256, (3, 3), activation='relu', padding='same')(x)
+	x = Conv2D(256, (3, 3), activation='relu', padding='same')(x)
+    	x = MaxPooling2D((2, 2), strides=(2, 2))(x)
+
+	x = Conv2D(512, (3, 3), activation='relu', padding='same')(x)
+    	x = Conv2D(512, (3, 3), activation='relu', padding='same')(x)
+	x = Conv2D(512, (3, 3), activation='relu', padding='same')(x)
+	x = Conv2D(512, (3, 3), activation='relu', padding='same')(x)
+    	x = MaxPooling2D((2, 2), strides=(2, 2))(x)
+
+	# Fully connected layers
+    	x = Flatten()(x)
+    	x = Dense(12288, activation='relu')(x)
+    	x = Dense(8192, activation='relu')(x)
+    	x = Dense(4096, activation='relu')(x)
+    	x = Dense(2048, activation='relu')(x)
+    	output_layer = Dense(num_classes, activation='softmax')(x)
+
+    	model = Model(inputs=input_layer, outputs=output_layer)
+
+    	return model
+
+# Create a custom model with custom input shape and number of classes
+custom_model = custom(input_shape=(224, 224, 3), num_classes=3)
