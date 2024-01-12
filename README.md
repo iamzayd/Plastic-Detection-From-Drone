@@ -25,8 +25,6 @@ YOLOV8 S and n
 
 ![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/db3228ed-7e64-41a6-ba30-54b0cb1cb51e)
 
-![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/6bb9f8c5-92ba-4492-b0fd-13c09b5efda1)
-
 
 Performance and resource utilization
 
@@ -34,5 +32,16 @@ Performance and resource utilization
 
 
 B) INSTANCE SEGMENTATION
-![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/1020c7aa-75dc-4ef6-96ae-02190cbbc4e0)
+![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/9bec8eb3-d750-4e16-9446-4055c24d4248)
+![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/e5cf4785-4a80-497b-a307-36d043ed7855)
+![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/76f17a42-2a0d-4491-af03-a224c3a69d74)
+
+
+c) ON LARFER DATASET - OBJECT DETECTION MODELS
+
+![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/45a38b22-2cab-4d7f-9661-b573079f902f)
+![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/7ae69117-0a2b-4ed4-8d01-d4b103137128)
+![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/97898e24-f970-4553-a2a7-2f4148cc5663)
+![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/79a026a2-ba8b-4baa-a7e0-dff59edd28d7)
+
 
