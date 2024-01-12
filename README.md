@@ -14,13 +14,9 @@ Applied models
 A) OBEJCT DETECTION
 
 YOLOV8 S and n
+
+
 ![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/da4c38b4-651c-4745-b0d0-70d46efc47b8)
-
-![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/ffebfd05-de83-44eb-90e6-baa1d80113f8)
-![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/ef51e55e-7fca-4871-8214-97691670ddbd)
-![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/0b680896-7bde-4a65-b488-3aba55a7275d)
-![image](https://github.com/iamzayd/Plastic-Detection-From-Drone/assets/91972048/0b847ba3-1c96-4968-9c75-6d30e787b314)
-
 
 
 
